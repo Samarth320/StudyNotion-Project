@@ -1,0 +1,29 @@
+/* write your css here */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ hmtl, body {
+    overflow-x: hidden;
+}
+
+.bgCodeblock1{
+    background-image: radial-gradient(circle, rgba(255, 166, 0, 0.192), transparent );
+} 
+.bgCodeblock2{
+    background-image: radial-gradient(circle, rgba(54, 176, 195, 0.192), transparent );
+}
+
+.homepage_bg{
+    background: url("../src/assets/Images/bghome.svg");
+}
+
+.highlightText-gradient{
+    color: linear-gradient(117.52deg, #5433FF -4%, #20BDFF 51.26%, #A5FECB 106.52%);
+}
+
+
+
+
+
